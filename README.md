@@ -18,7 +18,7 @@ Sign up and Sign in users
 
 - ```npm start```
 - Endpoints:
-* ```POST``` requests to ```/sign-in``` will compare the plain text password with the bcrypt hash stored in the Users database and return the status of loggedIn ```true``` or ```false``` 
+* ```POST``` requests to ```/sign-in``` will compare the plain text password with the bcrypt hash stored in the Users database and return the status of loggedIn ```true``` or ```false```
 * ```POST``` requests to ```/sign-up``` will has the password and send to the user database to store (if the user with this username does not already exist)
 
 ## Tests
